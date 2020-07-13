@@ -88,11 +88,6 @@ const ImageSlider = (props) => {
             <article key={`article-${index}`}>
               <img key={`image-${index}`} src={image} alt={`image-${index}`} />
               <Background />
-              {/* <article key={index}>
-                <Text2>{teacher.name}</Text2>
-                <Text4 as="p">{teacher.description}</Text4>
-                {url && <a href={url}>{teacher.campus.description}</a>}
-              </article> */}
             </article>
           ))}
         </Slider>
